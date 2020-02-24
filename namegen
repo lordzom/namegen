@@ -1,0 +1,14 @@
+import random
+first = ("blue ", "red", "green", "purple", "silver", "violet", "rainbow", "yellow", )
+second = ("Coder", "Vegan", "Man", "Hacker", "Horse", "Bear", "Goat", "Goblin", "Learner", "Killer", "Woman", "Programmer", "Spy", "Stalker", "Spooderman", "Carrot", "Goat","Quickscoper")
+while True:
+  f = random.choice(first)
+  s = random.choice(second)
+  name = (f + " " + s)
+  print("Your name is: " + name)
+  l = input("Try another name?(Y/N)\n")
+  if l == ("Y"):
+   continue
+  if l == ("N"):
+    print ("okie bai.")
+    break
